@@ -1,0 +1,246 @@
+@import "../../app.scss";
+
+.services{
+  background: linear-gradient(180deg, #0c0c1d, #111132);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .textContainer{
+    flex: 1;
+    align-self: flex-end;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    @include mobile{
+      align-self: end;
+      text-align: center;
+      flex-direction: column;
+    }
+
+    .text{
+      display: flex;
+      flex-direction: row;
+      gap: 15px;
+
+      @include mobile{
+        padding-right: 10px;
+      }
+
+      .text1{
+        align-self: center;
+        font-size: 30px;
+        justify-content: center;
+        align-items: center;
+        text-transform: uppercase;
+      }
+
+      .text2{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+      }
+    }
+
+    hr{
+      width: 300px;
+      border: none;
+      border-top: 1px solid darkgray;
+
+      @include mobile{
+        width: 200px;
+      }
+    }
+  }
+
+  .titleContainer{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    @include mobile{
+      width: 100%;
+      padding: 20px;
+    }
+
+    .title{
+
+      @include mobile{
+        text-align: center;
+      }
+
+      h1{
+        font-size: 50px;
+        font-weight: 100;
+
+        @include mobile{
+          font-size: 17px;
+        }
+
+        b{
+          color: orange;
+        }
+      }
+    }
+  }
+
+  .listContainer{
+    flex: 3;
+    display: flex;
+    max-width: 1366px;
+    margin: auto;
+
+    @include mobile{
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 30px;
+      width: 100%;
+      align-items: center;
+      scale: 68%;
+      margin-top: -180px;
+    }
+
+    .box{
+      padding: 50px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      @include mobile{
+        align-items: center;
+        padding: 10px;
+        //scale: 80%;
+      }
+    }
+  }
+}
+
+
+
+
+
+
+//@import "../../app.scss";
+//
+//.services {
+//  background: linear-gradient(180deg, #0c0c1d, #111132);
+//  height: 100%;
+//  display: flex;
+//  flex-direction: column;
+//  justify-content: space-between;
+//
+//  .textContainer {
+//    flex: 1;
+//    align-self: flex-end;
+//    display: flex;
+//    align-items: center;
+//    gap: 20px;
+//
+//    @include mobile {
+//      align-self: center;
+//      text-align: center;
+//      flex-direction: column;
+//    }
+//
+//    .text {
+//      display: flex;
+//      flex-direction: row;
+//      gap: 15px;
+//
+//      .text1 {
+//        align-self: center;
+//        font-size: 30px;
+//        justify-content: center;
+//        align-items: center;
+//        text-transform: uppercase;
+//      }
+//
+//      .text2 {
+//        display: flex;
+//        flex-direction: column;
+//        align-items: start;
+//        justify-content: center;
+//      }
+//    }
+//
+//    hr {
+//      width: 300px;
+//      border: none;
+//      border-top: 1px solid darkgray;
+//
+//      @include mobile {
+//        width: 200px;
+//      }
+//    }
+//  }
+//
+//  .titleContainer {
+//    flex: 1;
+//    display: flex;
+//    flex-direction: column;
+//    align-items: center;
+//    justify-content: center;
+//
+//    @include mobile {
+//      width: 100%;
+//      padding: 20px;
+//    }
+//
+//    .title {
+//
+//      @include mobile {
+//        text-align: center;
+//      }
+//
+//      h1 {
+//        font-size: 50px;
+//        font-weight: 100;
+//
+//        @include mobile {
+//          font-size: 17px;
+//        }
+//
+//        b {
+//          color: orange;
+//        }
+//      }
+//    }
+//  }
+//
+//  .listContainer {
+//    flex: 3;
+//    display: flex;
+//    max-width: 1366px;
+//    margin: auto;
+//
+//    @include mobile {
+//      display: grid;
+//      grid-template-columns: 1fr;
+//      gap: 20px;
+//      width: 100%;
+//      align-items: center;
+//      scale: 65%;
+//      margin-top: -205px;
+//    }
+//
+//    .box {
+//      padding: 50px;
+//      display: flex;
+//      flex-direction: column;
+//      justify-content: center;
+//      align-items: center;
+//
+//      @include mobile {
+//        align-items: center;
+//        padding: 20px;
+//        width: 100%;
+//      }
+//    }
+//  }
+//}
