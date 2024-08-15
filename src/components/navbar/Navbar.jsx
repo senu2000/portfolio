@@ -13,13 +13,13 @@ const Navbar = () => {
                              transition={{duration:0.5}}>Senura Adithya</motion.span>
                 <div className="social">
                     <a href="https://www.facebook.com/senura.adithya.3?mibextid=LQQJ4d">
-                        <img src="/facebook.png" alt=""/>
+                        <img src={`${import.meta.env.BASE_URL}facebook.png`} alt=""/>
                     </a>
                     <a href="https://www.instagram.com/s_e_n_u_1_9?igsh=MWNybzJ4ZHB3bm8yZg%3D%3D&utm_source=qr">
-                        <img src="/instagram.png" alt=""/>
+                        <img src={`${import.meta.env.BASE_URL}instagram.png`} alt=""/>
                     </a>
                     <a href="https://www.linkedin.com/in/senura-adithya-5a3842217">
-                        <img src="/LinkedIn.png" alt=""/>
+                        <img src={`${import.meta.env.BASE_URL}LinkedIn.png`} alt=""/>
                     </a>
                     <a href="https://github.com/senu2000">
                         <svg xmlns="http://www.w3.org/2000/svg"

@@ -6,7 +6,7 @@ const items = [
     {
         id: "1",
         title: "Pintharu Homes",
-        img: "/projectImg/Project II.png",
+        img: "/portfolio/projectImg/Project II.png",
         description: "The project focuses on creating a nationwide digital platform that revolutionizes the paint selection and purchasing experience. Users can upload photos of their spaces, explore various paint options, and visualize the colors in their environment before making a purchase. The platform also serves as a comprehensive marketplace, offering easy access to top paint brands and professional advice through chat or video calls. Additional features include a quotation estimator for budget planning and an admin panel for efficient inventory management, streamlining the entire process from selection to consultation and purchase.",
         technologies: "Vite, Spring Boot, Tailwind CSS, Django, Open CV",
         frontend: "https://github.com/senu2000/Pintharu-Homes-Frontend",
@@ -17,7 +17,7 @@ const items = [
     {
         id: "2",
         title: "Kitchen Master",
-        img: "/projectImg/APT.png",
+        img: " /portfolio/projectImg/APT.png",
         description: "Kitchen Master, your ultimate destination for culinary creativity! Dive into an extensive collection of global recipes, catering to every taste and occasion. Whether you're an expert in the kitchen or just starting out, Kitchen Master encourages you to explore new recipes, experiment with diverse flavors, and share your culinary creations with our vibrant community. Our intuitive platform makes it easy to discover, cook, and savor mouthwatering dishes. Plus, our dedicated admins are here to ensure a seamless and enjoyable experience for all users.",
         technologies: "React, Django, Tailwind CSS",
         frontend: "https://github.com/senu2000/Kitchen_Master_Frontend",
@@ -28,7 +28,7 @@ const items = [
     {
         id: "3",
         title: "Mental Health Service",
-        img: "/projectImg/MHS.jpg",
+        img: "/portfolio/projectImg/MHS.jpg",
         description: "This web site is very important for the people who in stress and in depression. Patients, Counsellors and Doctors are engaging with the system and we are measuring the depression level of a person by using in a way that is accepted by the world which are SDS and DSS. We get the details from the user by it and then we provide necessary treatments. In here we provide so many minds relaxing things, online counselling services and online treatments through inbuild chatting system and video conference tool with profile management and also admins can mange all the things throughout the system.",
         technologies: "HTML, CSS, PHP, Bootstrap, AJAX, WebRTC",
         frontend: "",
@@ -39,7 +39,7 @@ const items = [
     {
         id: "4",
         title: "UI Design for fitness center",
-        img: "/projectImg/UI1.png",
+        img: "/portfolio/projectImg/UI1.png",
         description: "This web site is very important for the people who in stress and in depression. Patients, Counsellors and Doctors are engaging with the system and we are measuring the depression level of a person by using in a way that is accepted by the world which are SDS and DSS. We get the details from the user by it and then we provide necessary treatments. In here we provide so many minds relaxing things, online counselling services and online treatments through inbuild chatting system and video conference tool with profile management and also admins can mange all the things throughout the system.",
         technologies: "Figma",
         frontend: "",
@@ -50,7 +50,7 @@ const items = [
     {
         id: "5",
         title: "Yummy Kitchen",
-        img: "/projectImg/RAD.png",
+        img: "/portfolio/projectImg/RAD.png",
         description: "Yummy Kitchen, your go-to hub for culinary inspiration! Explore a vibrant collection of recipes from around the world, perfect for every palate and occasion. Whether you're a seasoned chef or a kitchen newbie, Yummy Kitchen invites you to discover new dishes, experiment with flavors, and share your own favorite recipes with our growing community. Our user-friendly platform makes it easy to find, create, and enjoy delicious meals. Plus, admins ensure a smooth and enjoyable experience for everyone.",
         technologies: "HTML, CSS, Bootstrap, JSP",
         frontend: "",
