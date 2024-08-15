@@ -50,7 +50,7 @@ const Hero = () => {
                         <motion.button variants={textVarians}>See My Latest Works</motion.button>
                         <motion.button variants={textVarians}>Contact Me</motion.button>
                     </motion.div>
-                    {/*<motion.img src={`${import.meta.env.BASE_URL}scroll.png`} alt="" variants={textVarians} animate="scrollButton"/>*/}
+                    <motion.img src={`${import.meta.env.BASE_URL}scroll.png`} alt="" variants={textVarians} animate="scrollButton"/>
                 </motion.div>
             </div>
             <motion.div className="slidingText" variants={sliderVarians} initial="initial" animate="animate">

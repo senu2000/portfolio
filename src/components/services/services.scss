@@ -29,6 +29,10 @@
         padding-right: 10px;
       }
 
+      @include mobile{
+        scale: 85%;
+      }
+
       .text1{
         align-self: center;
         font-size: 30px;
@@ -103,6 +107,16 @@
       align-items: center;
       scale: 68%;
       margin-top: -180px;
+    }
+
+    @include sm-mobile{
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 30px;
+      width: 100%;
+      align-items: center;
+      scale: 55%;
+      margin-top: -235px;
     }
 
     .box{
