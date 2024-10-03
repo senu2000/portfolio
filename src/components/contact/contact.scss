@@ -37,6 +37,13 @@
         text-align: center;
         padding-top: 20px;
       }
+
+      @include sm-mobile{
+        font-size: 25px;
+        text-align: center;
+        padding-top: 40px;
+        margin-bottom: -30px;
+      }
     }
 
     span {
@@ -55,6 +62,10 @@
       align-items: center;
     }
 
+    @include sm-mobile{
+      padding-top: 30px;
+    }
+
     .svgContainer{
       stroke: orange;
       position: absolute;
@@ -68,12 +79,25 @@
         margin-left: -50px;
         margin-top: -80px;
       }
+
+      @include sm-mobile{
+        justify-content: center;
+        align-items: center;
+        scale: 60%;
+        margin-left: -50px;
+        margin-top: -110px;
+      }
     }
 
     form {
       display: flex;
       flex-direction: column;
       gap: 20px;
+
+      @include sm-mobile{
+        gap: 5px;
+        margin-top: -40px;
+      }
 
       input, textarea {
         padding: 20px;
@@ -84,6 +108,10 @@
 
         @include mobile{
           padding: 10px;
+        }
+
+        @include sm-mobile{
+          scale: 80%;
         }
       }
 
@@ -98,6 +126,9 @@
 
         @include mobile{
           padding: 10px;
+        }
+        @include sm-mobile{
+          scale: 80%;
         }
       }
     }

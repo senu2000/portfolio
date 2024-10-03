@@ -81,6 +81,15 @@
           margin-top: -140px;
         }
 
+        @include sm-mobile{
+          transform: none !important;
+          align-items: center;
+          justify-content: center;
+          text-align: center;
+          scale: 60%;
+          margin-top: -140px;
+        }
+
         h2 {
           font-size: 40px;
           @include mobile{

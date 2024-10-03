@@ -82,6 +82,14 @@
       bottom: 0;
     }
 
+    @include sm-mobile{
+      width: 100%;
+      height: 100%;
+      top: unset;
+      bottom: -125px;
+      scale: 56%;
+    }
+
     img{
       width: 100%;
       height: 100%;

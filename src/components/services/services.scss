@@ -20,6 +20,13 @@
       flex-direction: column;
     }
 
+    @include sm-mobile{
+      align-self: end;
+      text-align: center;
+      flex-direction: column;
+      scale: 90%;
+    }
+
     .text{
       display: flex;
       flex-direction: row;
@@ -27,10 +34,11 @@
 
       @include mobile{
         padding-right: 10px;
+        scale: 85%;
       }
 
-      @include mobile{
-        scale: 85%;
+      @include sm-mobile{
+        scale: 80%;
       }
 
       .text1{
@@ -69,7 +77,8 @@
 
     @include mobile{
       width: 100%;
-      padding: 20px;
+      padding-top: 10px;
+      padding-bottom: 20px;
     }
 
     .title{
@@ -112,11 +121,11 @@
     @include sm-mobile{
       display: grid;
       grid-template-columns: 1fr;
-      gap: 30px;
+      gap: 25px;
       width: 100%;
       align-items: center;
-      scale: 55%;
-      margin-top: -235px;
+      scale: 50%;
+      margin-top: -270px;
     }
 
     .box{
