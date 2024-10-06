@@ -47,10 +47,11 @@ const Hero = () => {
                     <motion.h2 variants={textVarians}>SENURA ADITHYA</motion.h2>
                     <motion.h1 variants={textVarians}>Full Stack Developer and <br/> UI Designer</motion.h1>
                     <motion.div className="buttons" variants={textVarians}>
-                        <motion.button variants={textVarians}>See My Latest Works</motion.button>
-                        <motion.button variants={textVarians}>Contact Me</motion.button>
+                        <a href="#Portfolio"><motion.button variants={textVarians}>See My Latest Works</motion.button></a>
+                        <a href="#Contact"><motion.button variants={textVarians}>Contact Me</motion.button></a>
                     </motion.div>
-                    <motion.img src={`${import.meta.env.BASE_URL}scroll.png`} alt="" variants={textVarians} animate="scrollButton"/>
+                    <motion.img src="" alt="" variants={textVarians} animate="scrollButton"/>
+                    {/*{`${import.meta.env.BASE_URL}scroll.png`}*/}
                 </motion.div>
             </div>
             <motion.div className="slidingText" variants={sliderVarians} initial="initial" animate="animate">

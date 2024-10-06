@@ -34,7 +34,7 @@ const items = [
         frontend: "",
         backend: "https://github.com/SasanDilanthaSTD/Project_new",
         ui: "",
-        demo: "",
+        demo: "https://youtu.be/xyCX1REksfQ?si=16T8IIm5-zpMBeuQ",
     },
     {
         id: "4",
