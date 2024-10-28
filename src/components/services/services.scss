@@ -125,6 +125,16 @@
       gap: 25px;
       width: 100%;
       align-items: center;
+      scale: 70%;
+      margin-top: -160px;
+    }
+
+    @include special{
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 25px;
+      width: 100%;
+      align-items: center;
       scale: 50%;
       margin-top: -270px;
     }
