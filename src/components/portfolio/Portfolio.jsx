@@ -81,7 +81,7 @@ const Single = ({item}) => {
                         <h2>{item.title}</h2>
                         <p>{item.description}</p>
                         <div className="technologiesContainer">
-                            <h4>Technologies used :</h4>
+                            <h4>Technologies:</h4>
                             <p className="technologies">{item.technologies}</p>
                         </div>
                         <a href={item.demo}>
