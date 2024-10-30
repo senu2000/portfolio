@@ -44,7 +44,7 @@ const items = [
         technologies: "Figma",
         frontend: "",
         backend: "",
-        ui: "",
+        ui: "https://www.behance.net/gallery/205570067/Cool-UI-Design-for-Gym",
         demo: "",
     },
     {
