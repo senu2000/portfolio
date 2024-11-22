@@ -12,7 +12,7 @@ const items = [
         frontend: "https://github.com/senu2000/Pintharu-Homes-Frontend",
         backend: "https://github.com/senu2000/Pintharu-Homes-Backend",
         ui: "",
-        demo: "",
+        demo: "https://youtu.be/BwX1r-dPufI?si=jnborMbqItXkCtLK",
     },
     {
         id: "2",
@@ -23,7 +23,7 @@ const items = [
         frontend: "https://github.com/senu2000/Kitchen_Master_Frontend",
         backend: "https://github.com/senu2000/Kitchen_Master_Backend",
         ui: "",
-        demo: "",
+        demo: "https://youtu.be/PyP_lQtHIcM?si=oRrxg-yKrMqqYfza",
     },
     {
         id: "3",
@@ -45,7 +45,7 @@ const items = [
         frontend: "",
         backend: "",
         ui: "https://www.behance.net/gallery/205570067/Cool-UI-Design-for-Gym",
-        demo: "",
+        demo: "https://www.behance.net/gallery/205570067/Cool-UI-Design-for-Gym",
     },
     {
         id: "5",
